@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
     "absolute -top-12 left-1/2 -translate-x-1/2 bg-slate-900 dark:bg-accent text-white dark:text-slate-900 text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-all whitespace-nowrap hidden md:block shadow-xl pointer-events-none";
   return (
     <nav
-      className={`pointer-events-none fixed bottom-4 left-1/2 z-[100] w-[95%] -translate-x-1/2 px-2 transition-all duration-700 ease-in-out md:bottom-8 md:w-fit ${isVisible ? "translate-y-0 opacity-100" : "translate-y-24 opacity-0"
+      className={`pointer-events-none fixed bottom-4 left-1/2 z-[100] w-[92%] -translate-x-1/2 px-4 transition-all duration-700 ease-in-out md:bottom-8 md:w-fit ${isVisible ? "translate-y-0 opacity-100" : "translate-y-24 opacity-0"
         }`}
     >
       <div className="dark:bg-darkSurface/60 pointer-events-auto flex items-center justify-between gap-1 rounded-full border border-white/40 bg-white/60 p-1.5 shadow-[0_20px_50px_rgba(0,0,0,0.2)] backdrop-blur-2xl transition-colors duration-1000 md:justify-center md:p-2 dark:border-white/10">

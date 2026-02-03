@@ -142,7 +142,7 @@ const AppContent: React.FC = () => {
       <MusicPlayer />
 
       {/* Floating Controllers Container (Samping Kanan) */}
-      <div className="fixed right-2 bottom-32 z-[1000] flex flex-col items-center gap-3 transition-all duration-500 md:right-4 md:top-1/2 md:bottom-auto md:-translate-y-1/2 md:gap-4">
+      <div className="fixed right-4 bottom-32 z-[1000] flex flex-col items-center gap-3 transition-all duration-500 md:right-4 md:top-1/2 md:bottom-auto md:-translate-y-1/2 md:gap-4">
         {/* Scroll to Top (Custom Boxy Style) */}
         {isOpened && (
           <button

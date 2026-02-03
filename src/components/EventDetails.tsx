@@ -89,7 +89,7 @@ const EventDetails: React.FC = () => {
           </p>
         </div>
 
-        <div className={`grid gap-8 md:gap-10 ${filteredEvents.length === 1 ? 'max-w-lg mx-auto' : 'md:grid-cols-2'}`}>
+        <div className={`grid gap-8 md:gap-10 ${filteredEvents.length === 1 ? 'max-w-full md:max-w-lg mx-auto' : 'grid-cols-1 md:grid-cols-2'}`}>
           {filteredEvents.map((ev, index) => {
             const mapUrl = ev.venue.mapsEmbedUrl;
 
